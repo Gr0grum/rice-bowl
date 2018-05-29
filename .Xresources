@@ -1,0 +1,139 @@
+! URxvt
+URxvt.termName: rxvt-unicode-256color
+!URxvt.font: xft:hack:size=11
+URxvt.font:           xft:Inconsolata\ For\ Powerline:size=13:antialias=true,xft:Inconsolata\ For\ Powerline:size=1333:antialias=true
+
+URxvt.letterSpace: 1
+URxvt.scrollBar: False
+! weird value... 8 works for .jpg preview in ranger
+URxvt.depth: 0
+URxvt.transparent: true
+URxvt.shading: 20
+
+! rofi
+rofi.color-enabled: true
+rofi.color-window: #bb242321, #bb242321, #fade3e
+!                     dark     text     light    active   a-text
+rofi.color-normal: #00272822, #bb8cffba, #00272822, #aeee00, #141413
+!rofi.color-active: #141021, #c05c47, #312842, #c05c47, #ffeefc
+!rofi.color-urgent: #141021, #e4b226, #312842, #e4b226, #ffeefc
+rofi.font: Inconsolata Medium 15
+rofi.terminal: urxvt
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.lines: 5
+rofi.fullscreen: true
+rofi.fake-transparency: true
+rofi.width: 10
+! small menu
+rofi.padding: 275
+! big menu WARNING: SLOW
+!rofi.padding: 100
+rofi.bw: 3
+
+! X11 colors pieced together by Dmitry Medvinsky.
+! Based on Vim colorscheme "badwolf" pieced together by Steve Losh.
+! vim: fdm=marker
+
+! Colors definition {{
+#define   plain            #f8f6f2
+#define   snow             #ffffff
+#define   coal             #000000
+
+#define   brightgravel     #d9cec3
+#define   lightgravel      #998f84
+#define   gravel           #857f78
+#define   mediumgravel     #666462
+#define   deepgravel       #45413b
+#define   deepergravel     #35322d
+#define   darkgravel       #242321
+#define   blackgravel      #1c1b1a
+#define   blackestgravel   #141413
+
+#define   dalespale        #fade3e
+#define   dirtyblonde      #f4cf86
+#define   taffy            #ff2c4b
+#define   saltwatertaffy   #8cffba
+#define   tardis           #0a9dff
+#define   orange           #ffa724
+#define   lime             #aeee00
+#define   dress            #ff9eb8
+#define   toffee           #b88853
+#define   coffee           #c7915b
+#define   darkroast        #88633f
+! }}}
+
+
+! Resourses {{
+*background:  blackgravel
+*foreground:  plain
+*cursorColor: plain
+*scrollColor: deepgravel
+*fadeColor:   snow
+*fading:      20
+
+!        black
+*color0:      blackestgravel
+*color8:      coal
+!        red
+*color1:      taffy
+*color9:      taffy
+!        green
+*color2:      lime
+*color10:     lime
+!        yellow
+*color3:      dalespale
+*color11:     orange
+!        blue
+*color4:      tardis
+*color12:     tardis
+!        magenta
+*color5:      dress
+*color13:     dress
+!        cyan
+*color6:      saltwatertaffy
+*color14:     saltwatertaffy
+!        white
+*color7:      brightgravel
+*color15:     snow
+! }}}
+
+
+
+!!special
+!*.foreground:   #f1ebeb
+!*.background:   #272822
+!*.cursorColor:  #f1ebeb
+!
+!! black
+!*.color0:       #48483e
+!*.color8:       #76715e
+!
+!! red
+!*.color1:       #dc2566
+!*.color9:       #fa2772
+!
+!! green
+!*.color2:       #8fc029
+!*.color10:      #a7e22e
+!
+!! yellow
+!*.color3:       #d4c96e
+!*.color11:      #e7db75
+!
+!! blue
+!*.color4:       #55bcce
+!*.color12:      #66d9ee
+!
+!! magenta
+!*.color5:       #9358fe
+!*.color13:      #ae82ff
+!
+!! cyan
+!*.color6:       #56b7a5
+!*.color14:      #66efd5
+!
+!! white
+!*.color7:       #acada1
+!*.color15:      #cfd0c2
+!
